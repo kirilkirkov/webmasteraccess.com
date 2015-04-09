@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'LugaCbold';
+    src: url('../fonts/LugaC/lugac-bo.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/lugac-bo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/lugac-bo.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/lugac-bo.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'LugaExtraLightC';
+    src: url('../fonts/LugaC/LugaExtraLightC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/LugaExtraLightC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/LugaExtraLightC.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/LugaExtraLightC.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'LugaC';
+    src: url('../fonts/LugaC/lugac___.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/lugac___.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/lugac___.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/lugac___.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'LugaShadowC';
+    src: url('../fonts/LugaC/LugaShadowC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/LugaShadowC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/LugaShadowC.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/LugaShadowC.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'LugaAdc';
+    src: url('../fonts/LugaC/LugaAdc.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/LugaAdc.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/LugaAdc.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/LugaAdc.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'LugaBookCBold';
+    src: url('../fonts/LugaC/LugaBookCBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/LugaBookCBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/LugaBookCBold.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/LugaBookCBold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'LugaBookItalic';
+    src: url('../fonts/LugaC/LugaBookItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LugaC/LugaBookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/LugaC/LugaBookItalic.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/LugaC/LugaBookItalic.ttf')  format('truetype');
+}
