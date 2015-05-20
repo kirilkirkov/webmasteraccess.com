@@ -1,0 +1,105 @@
+ body {font-family: 'LugaBookCBold'; font-size: 16px; color: #fff; }
+
+.content { background-image: url("../imgs/backgr.jpg"); background-repeat: no-repeat; background-size: cover; padding-bottom:50px;}
+
+.navbar-inverse { background-color: #f22f2f; }
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus { background-color: transparent; }
+.navbar-inverse .navbar-nav > li > a { color: #fff; font-family: 'LugaCbold'; font-size: 18px; text-transform: uppercase; padding-left:5px; padding-right:5px; }
+.navbar-inverse .navbar-nav { float:none; width:100%; display:table; }
+.navbar-inverse .navbar-nav > li { float:none; display:table-cell; width:auto; text-align:center;}
+.navbar-inverse { border-color: transparent; }
+.navbar-toggle { float: none; }
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse { text-align: center; }
+
+.first-row { margin-bottom:50px; }
+.first-row img {padding-top:50px;}
+
+.logo-right img { margin-bottom: 10px;  }
+.logo-right .shadow-luga { font-family: 'LugaShadowC'; font-size: 39px; line-height: 31px; }
+.logo-right .date-event {  font-family: 'LugaCbold'; font-size: 22px; }
+.logo-right .save-date { color: #f22f2f;  font-size: 46px; line-height: 42px; text-decoration: underline; text-transform: uppercase; }
+
+.header-txt h1 { font-family: 'LugaExtraLightC'; font-size: 48px; line-height: 35px; margin-bottom: 33px; }
+.header-txt p {font-family: 'LugaC'; line-height: 24px; margin-bottom: 27px; }
+.header-txt .embed-responsive .embed-responsive-item, 
+.embed-responsive iframe { border: 1px solid #b3b0ac; padding: 10px; }
+
+.subscribe .title { font-family: 'LugaAdC'; font-size: 28px; }
+.subscribe form {max-width:354px; display:inline-block;}
+.subscribe form .input-group-addon,
+.subscribe form .form-control {background-color: #333; color:#fff; border:0;}
+.subscribe form .form-control:focus {box-shadow:none;}
+
+.request-info .req-link { background-color: #f22f2f; border-radius: 50px; font-family: 'LugaC'; font-size: 21px; display:inline-block; text-align:center; width:100%; max-width:354px; color:#fff; height:43px; line-height:43px; }
+.request-info .req-link:hover { color: #fff; }
+
+.affilate .first {  font-size: 36px; line-height:36px; text-transform: uppercase; }
+.affilate .sec { color: #f22f2f;  font-size: 78px; line-height: 78px; text-transform: uppercase; }
+.affilate .thr { color: #fdfdfd;  font-size: 77px; line-height: 77px; text-transform: uppercase; }
+
+.price { max-width:350px; }
+.price img { float: left; }
+.price .first {  float: right;  font-size: 25px; line-height: 10px; text-transform: uppercase; }
+.price .sec { color: #f22f2f; float: right;  font-size: 90px; line-height: 95px; text-transform: uppercase; }
+.price .sec sup {font-size:50px; float:right; color:#fff;}
+.price .thr { float: right; font-family: 'LugaBookItalic'; font-size: 18px; font-style: italic; line-height: 10px; text-transform: uppercase; }
+
+.border-bottom {border-bottom: 1px solid #b7b7b4; padding-bottom: 35px; margin-bottom:35px;}
+
+.red-b {background-color:#f22f2f; min-height:75px; line-height:75px; font-size:54px; font-family:'LugaCbold'; text-align:center; }
+
+footer { margin-bottom:30px; text-align:center; font-size:14px; color:#333; font-family:'LugaC'; text-transform:uppercase; letter-spacing: 1px;}
+footer .date {margin-top:20px;}
+footer .place {font-size:11px; margin-bottom:20px;}
+footer .group { font-size:10px;}
+footer .priv { color:#ff7171; font-size:11px; margin-bottom:20px;  letter-spacing: 0;}
+footer .priv a {color:#ff7171; text-decoration:underline;}
+
+@media (max-width: 767px) {  
+    .navbar-inverse .navbar-nav > li > a { font-size: 16px; }
+    .navbar-inverse .navbar-nav > .slash { display: none; }
+    .content {text-align:center;}
+    .border-bottom {border-bottom:0;}
+    .red-b {font-size:25px; }
+    .price {margin: 0 auto;}
+    .first-row img {max-width:100%; }
+    .header-txt h1 {font-size:35px;}
+    .affilate .aff-sec {font-size:60px;}
+    .affilate .aff-thr {font-size:60px;}
+    .price .first {font-size:20px;}
+    .price .sec {font-size:70px;}
+    .price .thr {font-size:15px;}
+    .navbar-inverse .navbar-nav > li { display:inline; }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    .navbar-inverse .navbar-nav > li > a { font-size: 14px; }
+    .red-b {font-size:35px;}
+    .border-bottom {border-bottom:0;}
+    .price {margin: 0 auto;}
+    .align-center {text-align:center;}
+    .logo-right .save-date { font-size:43px; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-inverse .navbar-nav > li > a { font-size: 15px; }
+    .red-b {font-size:44px;}
+    .header-txt h1 {font-size:41px;}
+    .first-row img {max-width:100%;  }
+    .logo-right .shadow-luga {font-size: 34px;}
+    .logo-right .date-event {font-size: 19px; }
+    .logo-right .save-date {font-size:38px;}
+    .subscribe .title {font-size:23px;}
+    .affilate .first {font-size: 29px; line-height:29px;}
+    .affilate .sec {font-size:60px; line-height:60px;}
+    .affilate .thr {font-size:60px; line-height:60px;}
+    .price .first {font-size:20px;}
+    .price .sec {font-size:70px;}
+    .price .thr {font-size:15px;}
+    .header-txt .embed-responsive { height:420px; }
+    
+}
+
+@media (min-width:1200px) {
+    .header-txt .embed-responsive { height:480px; }
+}
